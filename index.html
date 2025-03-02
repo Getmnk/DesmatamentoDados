@@ -58,36 +58,24 @@
             color: #7f8c8d;
         }
 
-        .final-image {
-            margin-top: 40px;
-            text-align: center;
-        }
-
-        .final-image img {
-            width: 60%;
-            height: auto;
-            border-radius: 8px;
-        }
-        .final1-image {
-            margin-top: 40px;
-            text-align: center;
-        }
-
-        .final1-image img {
-            width: 60%;
-            height: auto;
-            border-radius: 8px;
-        }
+        .final-image,
+        .final1-image,
         .final2-image {
             margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
         }
 
+        .final-image img,
+        .final1-image img,
         .final2-image img {
             width: 60%;
             height: auto;
             border-radius: 8px;
         }
+
         footer {
             background-color: #2c3e50;
             color: white;
@@ -110,8 +98,8 @@
 </head>
 <body>
     <header>
-        <h1>Graficos de Desmatamento no Brasil - 1988 a 2022</h1>
-        <p>Graficos do desmatamento nos estados da Amazônia brasileira</p>
+        <h1>Gráficos de Desmatamento no Brasil - 1988 a 2022</h1>
+        <p>Gráficos do desmatamento nos estados da Amazônia brasileira</p>
     </header>
 
     <div class="container">
@@ -126,10 +114,11 @@
             <img src="matogrosso.png" alt="Scatterplot Mato Grosso">
             <p>Mato Grosso.</p>
         </div>
+
         <div class="state-section">
             <h2>Pará</h2>
             <img src="para.png" alt="Scatterplot Pará">
-            <p>Do pará</p>
+            <p>Do Pará.</p>
         </div>
 
         <div class="state-section">
@@ -137,11 +126,13 @@
             <img src="amapa.png" alt="Scatterplot Amapá">
             <p>A análise de desmatamento no Amapá.</p>
         </div>
+
         <div class="state-section">
             <h2>Rondônia</h2>
             <img src="rondonia.png" alt="Scatterplot Rondônia">
             <p>Rondônia.</p>
         </div>
+
         <div class="state-section">
             <h2>Roraima</h2>
             <img src="roraima.png" alt="Scatterplot Roraima">
@@ -176,7 +167,7 @@
     </div>
 
     <footer>
-        <p class="footer-text">&copy; Graficos de Desmatamento no Brasil - 1988 a 2022.</p>
+        <p class="footer-text">&copy; Gráficos de Desmatamento no Brasil - 1988 a 2022.</p>
     </footer>
 </body>
 </html>
